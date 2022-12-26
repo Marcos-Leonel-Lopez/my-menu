@@ -1,0 +1,30 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: calc(5px + 2vmin);
+    color: white;
+    .LogoPeque{
+        
+            height: calc(5px + 10vmin);
+            width: auto;
+            margin-left: 15px;
+    }
+    .CarritoForm{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 25%;
+        .Carrito{
+            display: flex;
+            justify-content: space-around;
+            border: solid;
+            padding: 1%;
+            border-radius: 25%;
+            width: 15%;
+        }
+    }
+  }
+ 

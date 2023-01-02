@@ -3,10 +3,6 @@
   padding: 0;
 }
 * .App {
-  text-align: center;
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,22 +11,33 @@
   font-size: calc(5px + 2vmin);
   color: white;
 }
-.App-header .LogoPeque {
+
+.LogoPeque {
   height: calc(5px + 10vmin);
   width: auto;
   margin-left: 15px;
 }
-.App-header .CarritoForm {
+
+.CarritoForm {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-width: 25%;
 }
-.App-header .CarritoForm .Carrito {
+.CarritoForm .Carrito {
   display: flex;
   justify-content: space-around;
   border: solid;
   padding: 1%;
   border-radius: 15%;
   width: 20%;
+}
+
+.Lista-items {
+  background-color: #1f2125;
+  border: solid;
+  border-radius: 3%;
+  border-color: white;
+  text-align: center;
+  height: 80vh;
 }/*# sourceMappingURL=App.css.map */

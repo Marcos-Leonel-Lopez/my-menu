@@ -19,7 +19,7 @@ const Barra = () => {
             <Navbar key={expand} bg="dark" variant="dark" expand={expand} className="mb-3">
                 <Container fluid>
                     <Navbar.Brand href="#">
-                        {<img className="LogoPeque" src={imagenes[0].img} />}
+                        {<img className="LogoPeque" src={imagenes[0].img} alt={imagenes[0].descripcion}/>}
                     </Navbar.Brand>
 
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -39,7 +39,7 @@ const Barra = () => {
                                 <Nav.Link href="#action2">Principales</Nav.Link>
                                 <Nav.Link href="#action3">Guarniciones</Nav.Link>
                                 <Nav.Link href="#action4">Postres</Nav.Link>
-                                <NavDropdown title="Bebidas" id={`offcanvasNavbarDropdown-expand-${expand}`}>
+                                <NavDropdown title="Bebidas" bg="dark" variant="dark" id={`offcanvasNavbarDropdown-expand-${expand}`}>
                                     <NavDropdown.Item href="#action3">Sin Alcohol</NavDropdown.Item>
                                     <NavDropdown.Item href="#action4">Con Alcohol</NavDropdown.Item>
                                     <NavDropdown.Divider />

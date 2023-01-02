@@ -11,7 +11,7 @@ const Cuerpo = () => {
         <>
             <Container fluid>
                 <Row className="justify-content-center">
-                    <Col xs lg="3" className="Lista-items">
+                    <Col xs={true} md={6} lg={4} className="Lista-items">
                     <ItemListContainer greeting="Hola, esto es el contenedor del listado de productos"/>
                     </Col>
                 </Row>       

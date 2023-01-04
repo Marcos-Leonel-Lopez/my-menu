@@ -40,4 +40,17 @@
   border-color: #0e0f10;
   text-align: center;
   height: 80vh;
+}
+
+.Contador-set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+.Contador-set .Num-ind {
+  font-size: 30px;
+}
+.Contador-set .Butt-Cont {
+  font-size: 10px;
 }/*# sourceMappingURL=App.css.map */

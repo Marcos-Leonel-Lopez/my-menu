@@ -4,6 +4,7 @@
 }
 * .App {
   background-color: #282c34;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +40,7 @@
   border-radius: 3%;
   border-color: #0e0f10;
   text-align: center;
-  height: 80vh;
+  height: 100vh;
 }
 
 .Contador-set {
@@ -53,4 +54,16 @@
 }
 .Contador-set .Butt-Cont {
   font-size: 10px;
+}
+
+.Imagenes-product {
+  width: 120px;
+  height: auto;
+}
+
+.Lista-productos {
+  list-style-type: none;
+}
+.Lista-productos li {
+  border: solid;
 }/*# sourceMappingURL=App.css.map */

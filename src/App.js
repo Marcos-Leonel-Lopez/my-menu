@@ -2,7 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Barra from './components/Barra';
 
-import Cuerpo from './components/Cuerpo';
+import Cuerpo from './pages/Cuerpo';
 
 
 

@@ -1,9 +1,9 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemListContainer from "./ItemListContainer";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ItemListContainer from "./ItemListContainer/ItemListContainer";
 
 
 const Cuerpo = () => {

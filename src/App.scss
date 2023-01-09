@@ -1,4 +1,6 @@
 @import './partials/root';
 @import './partials/barra';
-@import './partials/listaDeItems';
-@import './partials/contador';
+@import './pages/ItemListContainer/itemListContainer';
+@import './components/ItemCount/itemCount';
+@import './components/Item/item';
+@import './components/ItemList/itemList'
